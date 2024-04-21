@@ -1,0 +1,11 @@
+@import "./utilities/maps";
+@import "./utilities/functions";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+@import "./base/reset";
+@import "./base/typografias";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer.scss";
+@import "./layout/mediaQuery/media320";
+@import "./layout/mediaQuery/media768";

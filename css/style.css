@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header div img {
+  width: 6%;
+  border-style: none; }
+
+header .navbar {
+  font-family: "Oswald", sans-serif; }
+  header .navbar li a {
+    color: black; }
+  header .navbar li a:hover {
+    color: #3704f1; }
+
+main {
+  border-color: #3704f1;
+  background: #0098fa;
+  background: radial-gradient(circle, #0098fa 30%, black 98%); }
+  main .slider div img {
+    filter: none; }
+  main .slider div img:hover {
+    filter: drop-shadow(16px 16px 10px black); }
+
+section h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffff00 0%, #ff9900 100%); }
+
+section .card {
+  background: linear-gradient(to bottom, #ffff00 0%, #ff9900 100%); }
+
+footer {
+  background: linear-gradient(to bottom, #ffff00 0%, #ff9900 100%); }
+  footer h3 {
+    font-family: "Oswald", sans-serif; }
+  footer p {
+    font-family: "Oswald", sans-serif; }
